@@ -22,7 +22,6 @@ export default function Header() {
                     <li className="nav-item"><a href="#">Контакты</a></li>
                 </ul>
             </nav>
-
         </header>
     )
 }

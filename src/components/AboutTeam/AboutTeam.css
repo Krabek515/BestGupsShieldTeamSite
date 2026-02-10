@@ -1,0 +1,29 @@
+.characteristic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 800;
+    margin: 200px 0;
+}
+
+.description {
+    flex: 1 1 400px;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 50px;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+    margin: 20px 20px;
+}
+
+.carousel {
+    flex: 1 1 400px;
+    display: flex;
+    min-width: 0;
+    width: 0;
+}

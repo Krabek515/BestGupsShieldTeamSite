@@ -1,0 +1,130 @@
+.upFormBlock {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background: #1a1a1a;
+    padding: 200px;
+}
+
+.formBlock {
+    background-color: #242424;
+    color: white;
+    width: 85%;
+    max-width: 900px;
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border: 1px solid #333;
+}
+
+.formText {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formText h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+    background: linear-gradient(90deg, #fff, #888);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formText p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.formText .subText {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.messageForm {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.inputGroup label {
+    font-size: 14px;
+    color: #aaa;
+    margin-left: 5px;
+}
+
+.messageForm input,
+.messageForm select,
+.messageForm textarea {
+    width: 100%;
+    background: #333;
+    border: 1px solid #444;
+    border-radius: 12px;
+    padding: 12px 16px;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.messageForm input:focus,
+.messageForm select:focus,
+.messageForm textarea:focus {
+    border-color: #1888d8;
+    background: #3a3a3a;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.2);
+}
+
+.textToMember {
+    height: 120px !important;
+    resize: none;
+}
+
+.sendBtn {
+    margin-top: 10px;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+
+.sendBtn:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+}
+
+.sendBtn:active {
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .formBlock {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .formText {
+        text-align: center;
+    }
+}

@@ -20,14 +20,14 @@ export default function Moments(props) {
             height: '100%',
             objectFit: 'contain',
             objectPosition: 'center',
-        }
-    }
+        },
+    };
 
-    const images = Object.values(props).filter(item => typeof item === 'string')
+    const images = Object.values(props);
     const [index, setIndex] = useState(0);
     const nextStep = () => {
         setIndex((prev) => (prev + 1) % images.length)
-    }
+    };
 
     useEffect(() => {
         const timer = setInterval(() => {

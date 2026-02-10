@@ -1,56 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fff;
+}
+
+main {
+    position: relative;
     background-image: url('./pictures/winter-background.png');
-}
-
-.characteristic {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    font-weight: 800;
-    padding: 50px 0;
-}
-
-.description {
-    flex: 1 1 400px;
-    font-size: 20px;
-    text-align: justify;
-    padding: 0px 50px;
-    letter-spacing: 1px;
-    padding-bottom: 50px;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 100px;
-    margin: 20px 20px;
-}
-
-.carousel {
-    flex: 1 1 400px;
-    display: flex;
-    min-width: 0;
-    width: 0;
-}
-
-.members {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 0 10px;
-}
-
-.ourTeam {
-    color: white;
-    font-size: 30px;
-    font-weight: 800;
-    margin: 20px;
-}
-
-.teamBlock {
-    margin-bottom: 200px;
+    background-size: cover;
+    box-shadow: 5px 5px 30px #333;
 }
 
 @media (min-width: 1024px) {
